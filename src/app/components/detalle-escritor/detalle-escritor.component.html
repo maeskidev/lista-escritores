@@ -1,0 +1,12 @@
+<div class="detalle-container">
+    <h2>{{escritor?.nombre}} {{escritor?.apellidos}}</h2>
+    <img 
+        [src]="escritor?.imagen" 
+        [alt]="escritor?.nombre"
+        [ngClass]="{'img-active': escritorId == escritor?.id}"
+    >
+    <p>{{escritor?.pais}}</p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil et recusandae dignissimos ab impedit, animi eligendi debitis.
+    </p>
+</div>

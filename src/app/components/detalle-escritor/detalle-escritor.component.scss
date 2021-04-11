@@ -1,0 +1,33 @@
+.detalle-container{
+    box-sizing: border-box;
+    padding: 30px;
+    width: 50%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    
+    color:white;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    filter: brightness(30%);
+}
+
+.img-active{
+    animation-name: test;
+    animation-duration: 2s;
+}
+
+@keyframes test {
+    0%   {width: 0%;}
+    25%  {width: 90%;}
+    50%  {width: 50%;}
+    75%  {width: 90%;}
+    100% {width: 100%;}
+}
